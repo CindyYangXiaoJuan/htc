@@ -1,0 +1,159 @@
+.footer{
+    background-color: #f4f4f4;
+    height: 600px;
+}
+.footer_banxin{
+    width: 1140px;
+    height: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.foot_one h4{
+    font-family: Helvetica,Arial,
+    'LiHei Pro',"Microsoft Yahei",
+    "微軟正黑體",sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.foot_tow ul li{
+    float: left;
+    width: 277px;
+    height: 409px;
+    background-color: #ffffff;
+    margin-right:10px;
+    margin-top: 10px;
+    text-align: center;
+    border-top: 6px solid #ffffff;
+
+}
+.foot_towulli img{
+    width: 208px;
+    height: 208px;
+}
+.foot_towulli h4{
+    margin-top: 24px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    height: 40px;
+}
+.foot_towulli p{
+    margin-top: 40px;
+    font-size: 18px;
+}
+.foot_towulli span{
+    display: inline-block;
+    margin-top:15px;
+    background-color: pink;
+    font-size: 14px;
+    padding: 2px;
+    color: #ffffff;
+}
+
+
+/*<!--S==订单包邮部分-->*/
+.dingdan{
+    /*background-color: #f4f4f4;*/
+    height: 260px;
+}
+.dingdan_banxin {
+    width: 1140px;
+    height: 600px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.dingdan_top{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #999999;
+}
+.dingdan_bot ul li {
+    width: 275px;
+    height: 128px;
+    float: left;
+    background-color: #ffffff;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.dingdan_bot ul li a{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.dingdan_bot ul li a:hover{
+    text-decoration: underline;
+}
+
+/*<!--E==购物指南部分-->*/
+.zhinan{
+    background: #f4f4f4;
+    height: 260px;
+}
+.zhinan_banxin{
+    width: 1140px;
+    margin: 0 auto;
+}
+.zhinan_left{
+    margin-top: 30px;
+    float: left;
+    width: 285px;
+}
+.zhinan_left h3{
+    font-size: 18px;
+    color: #787878;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.zhinan_left ul li{
+    margin-bottom: 15px;
+}
+.zhinan_left ul li a{
+     color: #788f99;
+     font-size: 12px;
+ }
+.zhinan_left ul li a:hover{
+    text-decoration: underline;
+}
+.zhinan_left a{
+    color: #788f99;
+    font-size: 12px;
+}
+/*<!--E==底部通栏部分-->*/
+.tonglan{
+    /*margin-top: 20px;*/
+    background-color: #000000;
+    height: 45px;
+}
+.tonglan_banxin {
+    width: 700px;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+
+}
+.tonglan_banxin a{
+    float: left;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 15px;
+    color: #90be78;
+    margin-left: 10px;
+}
+.tonglan_banxin a:hover{
+    color: #acd14c;
+}
+
+.tonglan_banxin p{
+    float: left;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 15px;
+
+}

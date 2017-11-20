@@ -1,0 +1,21 @@
+/**
+ * Created by Administrator on 2017/10/13 0013.
+ */
+//导航栏部分,向上卷取出去的距离大于
+$(function(){
+    //window的滚动事件
+    $(window).scroll(function(){
+//当向上卷曲出去的距离大于kong的这个div的高度时,tp的这个div固定在顶部
+        if($(this).scrollTop()>$("#kong").height()){
+        $("#tp").css("position","fixed").css("top",0);
+            $("#big").css("marginTop",$("#tp").outerHeight(true));
+            $("#inp").hide();
+            $("#yi>ul").css("marginTop","20px");
+        }else{
+            $("#tp").css("position","");
+            $("#big").css("marginTop",0);
+            $("#inp").show();
+            $("#yi>ul").css("marginTop","");
+        }
+    });
+});

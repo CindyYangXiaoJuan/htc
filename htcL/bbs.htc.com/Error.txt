@@ -1,0 +1,7 @@
+﻿文件下载网址  =>  文件保存路径
+https://bbs.htc.com/cn/inc/htc-header/img/ltr/footer_down.png  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\bbs.htc.com\images\footer_down.png
+https://bbs.htc.com/cn/inc/img/index/slide_2.jpg  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\bbs.htc.com\images\slide_2.jpg
+https://bbs.htc.com/cn/inc/htc-header/img/ltr/footer_up.png  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\bbs.htc.com\images\footer_up.png
+https://bbs.htc.com/cn/inc/img/index/slide_1-mid.jpg  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\bbs.htc.com\images\slide_1-mid.jpg
+https://bbs.htc.com/cn/inc/htc-header/img/ltr/connect_dots.png  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\bbs.htc.com\images\connect_dots.png
+https://bbs.htc.com/cn/inc/img/index/slide_1.jpg  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\bbs.htc.com\images\slide_1.jpg

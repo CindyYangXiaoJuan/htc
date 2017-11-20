@@ -1,0 +1,57 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,input,table,button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    font: 12px microsofr yahei,arial;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/*a:hover {*/
+    /*color: #666;*/
+/*}*/
+img,input,button {
+    border: 0 none;
+}
+img {
+    vertical-align: middle;
+}
+input,button {
+    outline-style: none;
+}
+input {
+    font: 12px microsofr yahei,arial;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+}
+em,i {
+    font-style: normal;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}

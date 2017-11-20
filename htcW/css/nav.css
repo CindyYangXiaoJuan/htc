@@ -1,0 +1,24 @@
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #373737;
+}
+.nav ul {
+    width: 380px;
+    margin: 0 auto;
+}
+.nav ul li {
+    float: left;
+    height: 40px;
+    margin-right: 20px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 18px;
+}
+.nav ul li:hover {
+    background-color: #acd14c;
+    border-radius: 40px;
+}
+.nav ul a {
+    color : white;
+}

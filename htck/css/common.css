@@ -1,0 +1,54 @@
+dd,body,ul,ol,li,dl,p,h1,h2,h3,h4,h5,h6,input,button {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px microsoft yahei,arial;
+	color: #666;
+}
+li {
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+em,i {
+	font-style: normal;
+}
+input,button,img {
+	border: 0 none;
+}
+input,button {
+	outline-style: none;
+}
+img {
+	vertical-align: middle;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	color: #e01222;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.w {
+	width: 1250px;
+	margin: 0 auto;
+}

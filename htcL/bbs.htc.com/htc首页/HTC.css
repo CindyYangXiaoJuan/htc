@@ -1,0 +1,66 @@
+/*µ¼º½À¸²¿·Ö*/
+.wrapper{
+    width:1328px;
+    margin:0 auto;
+}
+.top_nav{
+    height: 100px;
+    background-color: pink;
+}
+.top_nav li{
+    float: left;
+}
+.left_div a{
+    display:inline-block;
+    padding-top:45px;
+    width: 120px;
+    height: 55px;
+    text-align: center;
+}
+.top_nav .left li{
+    height: 47px;
+    font-size: 14px;
+    padding:53px 45px 0;
+}
+.top_nav .left  a{
+    color: #666;
+}
+.top_nav .left  a:hover{
+    color:#abd258;
+}
+.top_nav .right li{
+    font-size: 12px;
+    font-weight: 700;
+    color:#abd258;
+    margin-top: 20px;
+}
+.top_nav .right a{
+    color:#abd258;
+}
+.top_nav .right a:hover{
+    color:forestgreen;
+}
+
+.top_nav .right li span{
+    margin:0 16px;
+}
+.top_nav .top_right {
+    width:300px;
+}
+.top_nav .top_right .rt{
+    margin-left: 80px;
+}
+ input{
+     width: 245px;
+    border:0;
+    outline-style:none;
+     padding-left:5px ;
+     padding-bottom:10px;
+     border-bottom: 2px solid #cbcbcb;
+     font-size: 14px;
+     color:#cbcbcb;
+     font-weight: 700;
+     margin-top: 15px;
+     margin-left: 50px;
+     background:url(images/magnify.png) no-repeat 220px top;
+}

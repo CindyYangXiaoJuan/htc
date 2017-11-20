@@ -1,0 +1,1335 @@
+<!-- Begin GenericError.jsp -->
+<!DOCTYPE HTML>
+
+
+<html lang="zh" xml:lang="zh">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>
+			一般错误
+		</title>
+		<!--SEO Meta Tags-->
+		<meta name="description" content="" />
+		<meta name="keywords" content="HTC" />
+		<meta name="author" content="8Guild" />
+		<!--Mobile Specific Meta Tag-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+			<!-- HTC-HEADER Source-->
+    <script src="/wcsstore/Aurora/new2014/htc-header/modernizr-2.6.3.min.js" class="chrome-plugin-js"></script>
+    <script src="/wcsstore/Aurora/new2014/htc-header/jquery-1.11.2.min.js" class="chrome-plugin-js"></script>
+    <script src="/wcsstore/Aurora/new2014/htc-header/device.js" class="chrome-plugin-js"></script>
+    <script src="/wcsstore/Aurora/new2014/htc-header/jquery.validate.min.js" class="chrome-plugin-js"></script>
+    <script src="/wcsstore/Aurora/new2014/htc-header/hoverIntent-r7.min.js" class="chrome-plugin-js"></script>
+    <script src="/wcsstore/Aurora/new2014/htc-header/jquery.placeholder.min.js" class="chrome-plugin-js"></script>
+    <script src="/wcsstore/Aurora/new2014/htc-header/htc.chrome.all.min.js" type="text/javascript" id="chrome-js"></script>
+    <link href="/wcsstore/Aurora/new2014/htc-header/htc.chrome.ltr.css" type="text/css" rel="stylesheet" id="chrome-css" />
+<!-- HTC-HEADER Source--><!--Favicon-->
+		<link rel="shortcut icon" href="/wcsstore/Aurora/new2014/favicon.ico" type="image/x-icon"/>
+		<link rel="icon" href="/wcsstore/Aurora/new2014/favicon.ico" type="image/x-icon"/>
+		<!--Master Slider Styles--><!-- STYLESHEETS -->
+		<link href="/wcsstore/Aurora/new2014/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="/wcsstore/Aurora/new2014/css/font-awesome.css" rel="stylesheet"/>
+		<!-- Theme style -->
+		<link href="/wcsstore/Aurora/new2014/plugins/clingify/clingify.css" rel="stylesheet"/>
+		<link href="/wcsstore/Aurora/new2014/css/header.css" rel="stylesheet"/>
+		<link href="/wcsstore/Aurora/new2014/css/style.css" rel="stylesheet"/>
+		<link href="/wcsstore/Aurora/new2014/css/responsive.css" rel="stylesheet"/>
+		<link href="/wcsstore/Aurora/new2014/css/light-gellary.css" rel="stylesheet"/>
+		
+		<!-- HTML5 shiv & respond.js for IE6-8 support of HTML5 elements & media queries --><!--[if lt IE 9]>
+		      <script src="/wcsstore/Aurora/new2014/plugins/html5shiv.js"></script>
+		      <script src="/wcsstore/Aurora/new2014/plugins/respond.min.js"></script>
+		    <![endif]-->
+		<!--Modernizr--><!--Adding Media Queries Support for IE8-->
+		
+		<script src="/wcsstore/Aurora/new2014/js/jquery.min.js"></script>
+		<script src="/wcsstore/Aurora/new2014/js/bootstrap.min.js"></script>
+		<!--JS plugins-->
+		<script src="/wcsstore/Aurora/new2014/plugins/clingify/jquery.clingify.min.js"></script>
+		<script src="/wcsstore/Aurora/new2014/plugins/jPanelMenu/jquery.jpanelmenu.min.js"></script>
+		<script src="/wcsstore/Aurora/new2014/plugins/jRespond/js/jRespond.js"></script>
+		<script src="/wcsstore/Aurora/new2014/js/script.min.js"></script>
+		<script src="/wcsstore/Aurora/new2014/js/back-to-top.js"></script>
+		<!-- /menu --><!--Javascript (jQuery) Libraries and Plugins-->
+		
+		 <script src="/wcsstore/Aurora/new2014/plugins/hover-dropdown/bootstrap-hover-dropdown.js"></script>
+		  <script>
+		    // very simple to use!
+		    $(document).ready(function() {
+		      $('.hover-drop').dropdownHover().dropdown();
+		    });
+		  </script>
+		  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NFQP7P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NFQP7P');</script>
+<!-- End Google Tag Manager --><!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PRZ759"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PRZ759');</script>
+<!-- End Google Tag Manager -->
+	</head>
+	
+ 
+
+<body data-page="chrome" data-site="cn" data-version="1.0.chrome-37" data-env="dev2" class="cn chrome ltr">
+<div id="htc-site" class="htc-chrome">
+    <!-- Header Nav Start --><!-- BEGIN Header.jsp --><!--Adding Media Queries Support for IE8-->
+<input type="hidden" value="http://eshop.htc.com/webapp/wcs/stores/servlet/MiniShopCartDisplayView?catalogId=10001&langId=-7&storeId=10001" id="MiniShopCartDisplayViewURL"/>
+
+
+<script src="/wcsstore/Aurora/javascript/Common/CallCenter_new.js"></script>
+<script src="/wcsstore/Aurora/javascript/Layouts/RefreshMiniShopcart.js"></script>
+<script src="https://www.htc.com/managed-assets/shared/desktop/js/global-custom.js"></script>
+<link href="https://www.htc.com/managed-assets/shared/desktop/css/global-custom.css" type="text/css" rel="stylesheet" />
+<script src="/wcsstore/Aurora/css/loading/Loading.js"></script>
+<script src="/wcsstore/Aurora/new2014/js/jquery.cookie.js"></script>
+
+<img style="display:none;" src="/wcsstore/Aurora/css/loading/loading.gif"/>
+<!-- 订单 -->
+<div style="display:none;">
+	<input type="text" value="" id="token" />
+	<input type="button" value="login" onclick="loginByToken($('#token').val());"/>
+</div>
+<script type="text/javascript">
+	//$.cookie('entry_source',null); 
+	
+	
+
+	
+	function ssologinHtc(){
+		var source = $.cookie('entry_source');
+		console.log("source:"+source);
+		if(source == 'htchome'){
+			window.HtcHomeLoginInterface.loginRequest();
+		}else{
+			var urlnow = 'https://eshop.htc.com/webapp/wcs/stores/servlet/TrackOrderStatus?orderStatusStyle=strong&catalogId=10001&langId=-7&flag=order&storeId=10001';
+			var hostname = location.hostname;
+			thisHPage = urlnow.split(hostname)[1];
+			window.location.href="https://eshop.htc.com/webapp/wcs/stores/servlet/LogonForm?catalogId=10001&langId=-7&storeId=10001&prevUrl="+encodeURIComponent(urlnow);
+		}
+	}
+	
+	function ssologin(){
+		var source = $.cookie('entry_source');
+		console.log("source:"+source);
+		if(source == 'htchome'){
+			window.HtcHomeLoginInterface.loginRequest();
+		}else{
+			var urlnow = window.location.href;
+			var hostname = location.hostname;
+			thisHPage = urlnow.split(hostname)[1];
+			window.location.href="https://eshop.htc.com/webapp/wcs/stores/servlet/LogonForm?catalogId=10001&langId=-7&storeId=10001&prevUrl="+encodeURIComponent(urlnow);
+		}
+	}
+	
+	function loginByToken(token){
+		//alert(token);
+		var currentUrl = encodeURIComponent(window.location.href);
+		//alert(currentUrl);
+		window.location.href = "https://eshop.htc.com/webapp/wcs/stores/servlet/Logon?htcuser=1&catalogId=10001&langId=-7&storeId=10001&prevUrl="+currentUrl+"&AuthKey="+encodeURIComponent(token);
+	}
+	
+	function ssologout(){
+		var urlnow = window.location.href;
+		var hostname = location.hostname;
+		thisHPage = urlnow.split(hostname)[1];
+		window.location.href="https://eshop.htc.com/webapp/wcs/stores/servlet/SSOLogonLogout?catalogId=10001&action=logout&langId=-7&storeId=10001&prevUrl="+encodeURIComponent(urlnow);
+	}
+
+	function logoutHtcAccount(){
+		ssologout();
+	}
+</script>
+
+<!-- Main Header Area -->
+<input type="hidden" name="firstName" value='' id="firstName"/>
+<input type="hidden" name="accountURL" value='https://eshop.htc.com/webapp/wcs/stores/servlet/AjaxLogonForm?catalogId=10001&amp;myAcctMain=1&amp;langId=-7&amp;storeId=10001' id="accountURL"/>
+<input class="getCoupons"  type="hidden" value="false"/>
+
+<!-- New Header Begin-->
+<div class="htc-header" id="htc-header">
+     <header>
+         <div class="header-wrapper">
+             <div class="d-header">
+                 <div class="logo-block">
+                     <a href="//www.htc.com/cn/"></a>
+                 </div>
+                 <div class="top-navi-block">
+                     <ul class="top-navi-wrapper">
+					 
+					 	
+								<li class="top-item">
+									<a rel="follow" target="_self" class="top-title" href="javascript:ssologin();">  登录/ 注册</a>
+								</li>
+							
+
+						<li class="top-item">
+                             <div class="dot-green">
+                                 <div class="circle"></div>
+                             </div>
+                         </li>
+                         <li class="top-item">
+                         	<a rel="follow" target="_self" href="javascript:callCenterClick();" class="top-title">在线客服</a>
+                         </li>
+                         <li class="top-item">
+                             <div class="dot-green">
+                                 <div class="circle"></div>
+                             </div>
+                         </li>
+                         <li class="top-item"><a rel="follow" target="_self" href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001" class="top-title">帮助中心</a>
+                         </li>
+                         <li class="top-item">
+                             <div class="dot-green">
+                                 <div class="circle"></div>
+                             </div>
+                         </li>
+						 
+                         
+                         <li class="top-item">
+							 <a rel="follow" target="_self" href="https://eshop.htc.com/webapp/wcs/stores/servlet/OrderCalculate?calculationUsageId=-1&updatePrices=1&catalogId=10001&errorViewName=https%3A%2F%2Feshop.htc.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D10001%26langId%3D-7%26storeId%3D10001&orderId=.&langId=-7&storeId=10001&URL=https%3A%2F%2Feshop.htc.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D10001%26langId%3D-7%26storeId%3D10001" class="cart">
+							 <span id="top-mini-total"></span>
+							 购物车
+							 </a>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="main-navi-block">
+                     <ul class="menu-list">
+                         <li class="no-sub-menu">
+                             <div class="title"><a rel="follow" target="_self" href="http://eshop.htc.com/">官方商城</a>
+                             </div>
+                         </li>
+                         <li class="has-sub-menu">
+                             <div class="title"><a rel="follow" target="_self" href="http://www.htc.com/cn/smartphones/">全部产品</a>
+                             </div>
+                             <div class="sub-menu">
+                                 <div class="column col-1 permanent-link">
+                                     <div class="align-center">
+                                     	<a rel="" target="_self" href="//www.htc.com/cn/smartphones/">__ 智能手机
+										</a>
+										<a rel="" target="_self" href="//www.htc.com/cn/re/re-camera/">__ 相机
+										</a>
+											<a rel="" target="_self" href="http://www.htcvive.com/cn/">__ VIVE
+										</a>
+										<a rel="" target="_self" href="//www.htc.com/cn/accessories/">__ 配件
+										</a>
+                                     </div>
+                                 </div>
+								 										 
+								<div class="column col-1 standard-product">
+									<div class="align-center">
+										<a title="HTC 10" href="//www.htc.com/cn/smartphones/htc-10">
+											<img alt="HTC 10" src="/wcsstore/Aurora/new2014/htc-header/img/ltr/htc-10-global-glacier-silver-2v-listing.png">
+											<div class="product-name">
+												HTC 10
+											</div>
+											<div class="product-desc">十力觉醒</div>
+										</a>
+									</div>
+								</div>
+								<div class="column col-1 standard-product">
+									<div class="align-center">
+										<a title="HTC Desire 10 pro 全网通双卡双待" href="//www.htc.com/cn/smartphones/htc-desire-10-pro-dual-sim">
+											<img alt="HTC Desire 10 pro 全网通双卡双待" src="/wcsstore/Aurora/new2014/htc-header/img/ltr/htc-desire-10-Pro-stone-black-global-2v-listing.png">
+											<div class="product-name">
+												HTC Desire 10 pro 全网通双卡双待
+											</div>
+											<div class="product-desc">就是会玩儿</div>
+										</a>
+									</div>
+								</div>
+								<div class="column col-1 standard-product">
+									<div class="align-center">
+										<a title="HTC One X9" href="//www.htc.com/cn/smartphones/htc-one-x9">
+											<img alt="HTC One X9" src="/wcsstore/Aurora/new2014/htc-header/img/ltr/htc-one-x9-global-opal-silver-2v-listing.png">
+											<div class="product-name">
+												HTC One X9
+											</div>
+											<div class="product-desc">靠谱 才出众</div>
+										</a>
+									</div>
+								</div>
+								<div class="column col-1 standard-product">
+									<div class="align-center">
+										<a title="HTC One A9" href="//www.htc.com/cn/smartphones/htc-one-a9">
+											<img alt="HTC One A9" src="/wcsstore/Aurora/new2014/htc-header/img/ltr/htc-aero-global-opal-silver-2v-listing.png">
+											<div class="product-name">
+												HTC One A9
+											</div>
+											<div class="product-desc">不从众，才出众 </div>
+										</a>
+									</div>
+								</div>
+									 								 
+                             </div>
+                         </li>
+                        <li class="no-sub-menu">
+							<div class="title"><a rel="follow" target="_self" href="http://www.vive.com/cn">VIVE</a>
+							</div>
+						</li>
+                         <li class="no-sub-menu">
+                             <div class="title">
+                             	<a rel="follow" target="_self" href="//www.htc.com/cn/accessories/">配件</a>
+                             </div>
+                         </li>
+                         <li class="no-sub-menu">
+							<div class="title"><a rel="follow" target="_self" href="https://bbs.htc.com">官方社区</a>
+							</div>
+						</li>
+                        <li class="no-sub-menu">
+							<div class="title"><a rel="follow" target="_self" href="https://eshop.htc.com/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=%E8%89%AF%E5%93%81%E7%94%84%E9%80%89&storeId=10001&catalogId=10001&langId=-7">最新活动</a>
+							</div>
+						</li>
+                     </ul>
+                 </div>
+                 <!--SEARCH-->
+                 <div class="search-block">
+					<div class="align-center">
+					<!-- BEGIN Search.jsp -->
+
+
+		<meta name="CommerceSearch" content="storeId_10001" />
+		<!-- Begin Search Widget -->
+	<form action="http://eshop.htc.com/webapp/wcs/stores/servlet/SearchDisplay?" name="search" method="get" id="header_search_P">
+		<input class="submit" type="" value="" onclick="searchsubmit('P');"/>
+		<input placeholder="搜索" name="searchTerm" id="SimpleSearchForm_SearchTerm_P" class="query" type="text" maxlength="100"  onkeydown = "if(event.keyCode==13){searchsubmit('P');}"/>
+		
+		<input type="hidden" name="storeId" value='10001' />
+		<input type="hidden" name="catalogId" value='10001' />
+		<input type="hidden" name="langId" value='-7' />
+		<input type="hidden" name="pageSize" value="20" />
+		<input type="hidden" name="beginIndex" value="0" />
+		<input type="hidden" name="sType" value="SimpleSearch" />
+		<input type="hidden" name="resultCatEntryType" value="2" />
+		<input type="hidden" name="showResultsPage" value="true" />
+		<input type="hidden" name="searchSource" value="Q" />
+		<input type="hidden" name="pageView" value="" />
+	</form>
+	
+<script>
+function searchsubmit(type){
+	
+	var pattern = /\&|\<|\>|\"|\'|\//;
+	var searchtext = '';
+	if(type=='P'){
+		searchtext = $('#SimpleSearchForm_SearchTerm_P').val();
+		if(searchtext=='搜索'){
+			$('#SimpleSearchForm_SearchTerm_P').val(' ');
+		};
+	}else{
+		searchtext = $('#SimpleSearchForm_SearchTerm_M').val();
+		if(searchtext=='搜索'){
+			$('#SimpleSearchForm_SearchTerm_M').val(' ');
+		};
+	}
+	
+	
+	if(pattern.test(searchtext)){
+		$("#search_alert_button").html("确认");
+		$("#alert-modal-search h4").html("请输入合适的搜索内容！");
+		$("#togglePromptId").click();
+		//$('#alert-modal-search').modal();
+		//alert();
+	}else{
+		
+		if(type=='P'){
+			 document.getElementById("header_search_P").submit(); 
+		}else{
+			document.getElementById("header_search_M").submit(); 
+		}
+
+		
+	}
+}
+</script><!-- End Search Widget --><!-- END Search.jsp -->
+					</div>
+				</div>
+				<!--/ SEARCH-->
+             </div>
+             <div class="m-header">
+                 <div class="logo-block">
+                     <a href="http://www.htc.com/cn/"></a>
+                 </div>
+                 <div class="main-navi-block">
+                     <ul class="menu-list">
+                         <li class="no-sub-menu link-tab">
+                             <div class="title"><a rel="follow" target="_self" href="http://eshop.htc.com/">官方商城</a>
+                             </div>
+                         </li>
+                         <li class="has-sub-menu has-icon search-tab">
+                             <div class="title"></div>
+                             <div class="sub-menu">
+                                 <div class="align-center">
+                                     <!-- BEGIN Search.jsp -->
+
+
+		<meta name="CommerceSearch" content="storeId_10001" />
+		<!-- Begin Search Widget -->
+	<form action="http://eshop.htc.com/webapp/wcs/stores/servlet/SearchDisplay?" name="search" method="get" id="header_search_M">
+		<input class="submit" type=""  value="" onclick="searchsubmit('M');"/>
+		<input placeholder="搜索" name="searchTerm" id="SimpleSearchForm_SearchTerm_M" class="query" type="text" maxlength="100"  onkeydown = "if(event.keyCode==13){searchsubmit('M');}"/>
+		
+		<input type="hidden" name="storeId" value='10001' />
+		<input type="hidden" name="catalogId" value='10001' />
+		<input type="hidden" name="langId" value='-7' />
+		<input type="hidden" name="pageSize" value="20" />
+		<input type="hidden" name="beginIndex" value="0" />
+		<input type="hidden" name="sType" value="SimpleSearch" />
+		<input type="hidden" name="resultCatEntryType" value="2" />
+		<input type="hidden" name="showResultsPage" value="true" />
+		<input type="hidden" name="searchSource" value="Q" />
+		<input type="hidden" name="pageView" value="" />
+	</form>
+	
+<script>
+function searchsubmit(type){
+	
+	var pattern = /\&|\<|\>|\"|\'|\//;
+	var searchtext = '';
+	if(type=='P'){
+		searchtext = $('#SimpleSearchForm_SearchTerm_P').val();
+		if(searchtext=='搜索'){
+			$('#SimpleSearchForm_SearchTerm_P').val(' ');
+		};
+	}else{
+		searchtext = $('#SimpleSearchForm_SearchTerm_M').val();
+		if(searchtext=='搜索'){
+			$('#SimpleSearchForm_SearchTerm_M').val(' ');
+		};
+	}
+	
+	
+	if(pattern.test(searchtext)){
+		$("#search_alert_button").html("确认");
+		$("#alert-modal-search h4").html("请输入合适的搜索内容！");
+		$("#togglePromptId").click();
+		//$('#alert-modal-search').modal();
+		//alert();
+	}else{
+		
+		if(type=='P'){
+			 document.getElementById("header_search_P").submit(); 
+		}else{
+			document.getElementById("header_search_M").submit(); 
+		}
+
+		
+	}
+}
+</script><!-- End Search Widget --><!-- END Search.jsp -->
+                                 </div>
+                             </div>
+                         </li>
+						 <li class="no-sub-menu has-icon cart-tab">
+							<a href="https://eshop.htc.com/webapp/wcs/stores/servlet/OrderCalculate?calculationUsageId=-1&updatePrices=1&catalogId=10001&errorViewName=https%3A%2F%2Feshop.htc.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D10001%26langId%3D-7%26storeId%3D10001&orderId=.&langId=-7&storeId=10001&URL=https%3A%2F%2Feshop.htc.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D10001%26langId%3D-7%26storeId%3D10001" class="title checkout"></a><span class="cartCount cart-total"></span>
+						</li>
+                         <li class="has-sub-menu has-icon menu-tab">
+                             <div class="title"></div>
+                             <div class="sub-menu">
+                                 <!-- header menu -->
+                           <div class="has-third-menu sub-item">全部产品</div>
+                           <div class="third-menu"><a rel="follow" target="_self" href="http://www.htc.com/cn/smartphones/" class="third-item">智能手机</a><a rel="follow" target="_self" href="http://www.htc.com/cn/re/re-camera/" class="third-item">HTC如影</a><a rel="follow" target="_self" href="http://www.htc.com/cn/innovations" class="third-item">软件+APP</a>
+                           </div>
+                           <div class="sub-item"><a rel="follow" target="_self" href="http://www.htc.com/cn/accessories/"> 配件</a>
+                           </div>
+                           <div class="sub-item"><a rel="follow" target="_self" href="https://bbs.htc.com"> 官方社区</a>
+                           </div>
+                           <div class="sub-item"><a rel="follow" target="_self" href="https://eshop.htc.com/webapp/wcs/stores/servlet/SearchDisplay?searchTerm=%E8%89%AF%E5%93%81%E7%94%84%E9%80%89&storeId=10001&catalogId=10001&langId=-7"> 最新活动</a>
+							</div>
+							<!--   Top navigation link -->
+							<div class="sub-item"><a rel="follow" target="_self" href="javascript:callCenterClick();"> 在线客服</a>
+							</div>
+							<div class="sub-item"><a rel="follow" target="_self" href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001"> 帮助中心 </a>
+							</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+</div><!-- New Header End--><!-- 订单 -->
+	
+<link href="/wcsstore/Aurora/new2014/css/addenda.css" rel="stylesheet">	
+<script src="/wcsstore/Aurora/new2014/plugins/clingify/jquery.clingify.min.js"></script>
+
+<script type="text/javascript">
+$(function() {
+    $('.mobile-navbar').clingify();
+});
+</script>
+<script type="text/javascript">
+$(function() {
+   var seleId=$("#sele").val();
+   if(seleId !='' && seleId != null){
+	  $("#sele"+seleId).addClass("sel");
+	   $("#sele"+seleId+"List").addClass("sel");
+   }
+   
+});	
+</script>
+<style>
+.navbar-nav, .navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+.navbar-nav {
+	padding: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+</style>
+	
+<div class="mobile-navbar">
+
+	<!--
+	<div class="table-responsive" style="border: 1px none black;">
+		<table class="table">
+		<tr>
+			
+					<td><a class="one-line" href="javascript:ssologin();"><i class="icon-user"></i></a></td>
+				
+			<td><a class="one-line" href="/mall/zh-CN/htc/allCategories?ntype=ecshop">首页</a></td>
+			<td><a style="color:#fff;font-size:15px;" href="http://eshop.htc.com/fsbs/fsbs-wap.html?position=Nav2">逢双必杀</a></td>
+			 <td><a style="color:#fff;font-size:15px;" href="/webapp/wcs/stores/servlet/HCoinLotteryView?catalogId=10001&storeId=10001&langId=-7"> 幸运大抽奖</a></td>			
+			<td><a href="/mall/zh-CN/htc/allCategories/mobile?ntype=ecshop&position=Nav5">全部手机</a></td>
+			<td><a href="/mall/zh-CN/htc/allCategories/mobileAccessories?ntype=ecshop">配件</a></td>
+			<td><a href="/mall/zh-CN/htc/htc-re">HTC 如影(Re)</a></td>
+		</tr>
+		</table>
+	</div>
+		-->
+	
+	
+		
+	<div class="navList">
+		<div id="wrapper">
+		<div id="scroller">
+		
+		<ul class="nlist clearfix">
+			
+					<li class="uhead" onclick="ssologinHtc();"><img src="/wcsstore/Aurora/new2014/img/com_user.png"></li>
+				
+			<li onclick="location.href='/mall/zh-CN/htc/allCategories?ntype=ecshop'"  id="selehomePage" ><b></b>首页</li>
+			
+			<li onclick="location.href='/mall/zh-CN/htc/allCategories/mobile?ntype=ecshop'" id="selemobile"><b></b>手机</li>
+			<li onclick="location.href='/mall/zh-CN/htc/allCategories/mobileAccessories?ntype=ecshop'" id="seleaccessories"><b></b>配件</li>
+			
+		</ul>
+		</div>
+
+		</div>
+		<ul class="spList"></ul>
+		<div class="spread"><i></i></div>
+		<ul class="list-spread clearfix">
+			<li onclick="location.href='/mall/zh-CN/htc/allCategories?ntype=ecshop'"  id="selehomePageList"><b></b>首页</li>
+			
+			
+			<li onclick="location.href='/mall/zh-CN/htc/allCategories/mobile?ntype=ecshop'" id="selemobileList" style="border-bottom:0px;" ><b></b>手机</li>
+			<li onclick="location.href='/mall/zh-CN/htc/allCategories/mobileAccessories?ntype=ecshop'" id="seleaccessoriesList" style="border-bottom:0px;"><b></b>配件</li>
+			
+		</ul>		
+	</div>
+	<script src="/wcsstore/Aurora/new2014/js/iscroll.js"  type="text/javascript"></script>
+	<script type="text/javascript">
+		var myScroll;
+		function loaded () {
+			myScroll = new IScroll('#wrapper', { scrollX: true, scrollY: false, mouseWheel: true, click:true });
+		}
+		//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+		window.onload=loaded();
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	$(".spread").click(function(){
+		$(".list-spread").toggle();
+		$(".spList").toggle();
+		$(this).find("i").toggleClass("sp_u");
+		});
+	$(".nlist>li").click(function(){
+		$(this).addClass("sel").siblings().removeClass("sel");
+		});
+	$(".list-spread>li").click(function(){
+		$(this).addClass("sel").siblings().removeClass("sel");
+		});
+	});
+	</script>
+</div>
+<div id="navigation"> 
+	<div class="navbar-full"  data-toggle="clingify"> <!-- clingify -->
+	  	<div class="head_align_add_1 navbar container pos-re"> 
+		
+	  		<a style="display:none;" class="navbar-btn" data-toggle="jpanel-menu" data-target=".navbar-collapse"> 
+	        <span><i class="icon-angle-left"></i> 全部商品分类</span>
+	        </a>
+			<div class="head_align_add_2 navbar-collapse collapse"> 
+			  <!--main navigation-->
+			  <ul class="head_align_add_3 nav navbar-nav">
+			  <input type="hidden" value="" id="abc123"/>
+			  <!-- menu -->
+			    <li class='head_align_add_4 head_align_add_4_0' ><a style="margin-left:-20px;" href="/mall/zh-CN/htc/allCategories?ntype=ecshop&position=Nav1">首页</a></li>
+			    <!-- / menu --><!-- menu --><!-- / menu --><!-- / menu --><!--  menu --><!-- / menu --><!--  menu -->
+			    <li class="dropdown "> 
+				    <a href="/mall/zh-CN/htc/allCategories/mobile?ntype=ecshop&position=Nav4" class="dropdown-toggle menu-item hover-drop forck forck0" id="features-drop" data-toggle="dropdown">手机 
+					
+			    </a>
+			      <!-- Dropdown Menu - Mega Menu -->
+			    </li>
+			    <!-- / menu --><!-- menu --><!-- / menu --><!--  menu -->
+			    <li class="dropdown "> 
+				    <a href="/mall/zh-CN/htc/allCategories/mobileAccessories?ntype=ecshop&position=Nav5" class="dropdown-toggle menu-item hover-drop forck forck1" id="features-drop" data-toggle="dropdown">配件  
+				    	
+				    </a>
+			      <!-- Dropdown Menu - Mega Menu -->
+			    </li>
+			    <!-- / menu --><!-- menu --><!-- / menu --><!-- / menu --><!-- menu -->
+				<li> <a href="javascript:void(0);"  onclick="alULogin();"> U积分兑换</a> </li>
+				<!-- <li> <a  href="http://eshop.htc.com/webapp/wcs/stores/servlet/UCodeApplyAndShowView?catalogId=10001&position=Nav8&langId=-7&storeId=10001"> U码使用</a> </li>
+			     / menu -->
+				
+			  </ul>
+			</div>
+	      <!--/.navbar-collapse --> 
+	    </div>
+    </div>
+</div>
+<div class="modal fade" style="top:50px;" id="rotateid" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body pos-re">
+      <!-- Close -->
+        <button type="button" class="close pos-ab" data-dismiss="modal" style="top:10px;right:15px;z-index:99999;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <!-- / Close -->
+        <div class="row fix-padding15">
+        	<div class="col-sm-3 col-xs-4"><img class="pull-right" src="/wcsstore/Aurora/images/IntegralMall/face-look.png" alt=""></div>
+            <div class="col-sm-8 col-xs-8" style="text-align: center; margin-top: 20px;">
+            <div class="m-b-20"></div>
+              <h4 id="displayRotate"><p class="lead"></p></h4>
+            </div>
+        </div><!-- row -->
+      </div><!-- modal-body -->
+      <div class="modal-footer">
+      		<a href="javascript:void(0)" data-dismiss="modal"  id="disrotateok" class="btn btn-success pull-right asd" onclick="javascript:outok('');">确定</a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+  </div>
+<script type="text/javascript">
+	function alULogin(){
+					var returnURL ="http://eshop.htc.com/webapp/wcs/stores/servlet/UorderView?catalogId=10001&position=Nav7&langId=-7&flag=uorder&storeId=10001";
+					$("#displayRotate").html("请<span class='color-green'><a href="+'https://eshop.htc.com/webapp/wcs/stores/servlet/LogonForm?catalogId=10001&myAcctMain=1&langId=-7&storeId=10001&prevUrl='+encodeURIComponent(returnURL)+">登录<\/a><\/span>或<span class='color-green'><a href="+'https://eshop.htc.com/webapp/wcs/stores/servlet/LogonForm?catalogId=10001&myAcctMain=1&langId=-7&storeId=10001&prevUrl='+encodeURIComponent(returnURL)+">注册<\/a><\/span>之后再兑换");
+					$("#rotateid").modal({
+						"backdrop" : "static",
+						"show":true
+					});
+				}
+
+				$(".forck").mouseover(function(){
+					$(this).addClass("open");
+				});
+				$(".forck").mouseup(function(){
+					$(this).addClass("open");
+				});
+				$(".forck1").mousedown(function(){
+					$(this).removeClass("open");
+					window.location.href="/mall/zh-CN/htc/allCategories/mobileAccessories?ntype=ecshop&position=Nav5";
+				});
+						$(".forck").mouseout(function(){
+					$(this).removeClass("open");
+				});
+				
+				$(".forck").mouseover(function(){
+					$(this).addClass("open");
+				});
+				$(".forck").mouseup(function(){
+					$(this).addClass("open");
+				});
+				$(".forck0").mousedown(function(){
+					$(this).removeClass("open");
+			    	window.location.href="/mall/zh-CN/htc/allCategories/mobile?ntype=ecshop&position=Nav4";
+				});
+						$(".forck").mouseout(function(){
+					$(this).removeClass("open");
+				});
+				
+</script>
+<!-- / navigation --><!-- END Menu.jsp -->
+<input id="RefreshBrowsingHistoryViewURL" type="hidden" value="/webapp/wcs/stores/servlet/RefreshBrowsingHistoryView?urlLangId=-1&storeId=10001&catalogId=10001&langId=-7"/>
+
+<script>
+
+	var status = 0;
+	function refreshBrowsingHistory(){
+		var RefreshBrowsingHistoryViewURL = $("#RefreshBrowsingHistoryViewURL").val();
+		if(status==0){
+			status = 1;
+			$.ajax({
+			    type: 'GET',
+			    url: RefreshBrowsingHistoryViewURL,
+			    success: function(data) {
+			    	$("[name='RefreshBrowsingHistory']").attr("class","dropdown-menu arrow-to-right").html(data);
+				}
+			});
+		}
+	}
+</script>
+<ul class="float-bar" >
+<li class="dropdown float-bar-list" id="float-bar-01"><a
+		class="cart hover-drop" title="购物车"
+		href="http://eshop.htc.com/webapp/wcs/stores/servlet/OrderCalculate?calculationUsageId=-1&updatePrices=1&catalogId=10001&errorViewName=https%3A%2F%2Feshop.htc.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D10001%26langId%3D-7%26storeId%3D10001&orderId=.&langId=-7&storeId=10001&URL=https%3A%2F%2Feshop.htc.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D10001%26langId%3D-7%26storeId%3D10001"
+		data-toggle="dropdown"> <span style="font-size: 16px;" id="mini_top_total_bar"></span> </a>
+	<div id="float-bar-drop" class="dropdown-menu arrow-to-right"
+		name="minishopcart_floatbar"><!--
+	<div class="settlement">
+	<p class="left-col">总计 <span class="color-logo" id="mini_total">0</span>
+	件商品</p>
+	<p class="right-col"><span class="price">合计 : ￥0.00元</span></p>
+	<div class="clearfix">
+	<hr class="hr-s">
+	</div>
+	</div>
+	--></div>
+	</li>
+	<li class="float-bar-list" id="float-bar-05">
+	  <a id="callCenterBar" class="call" title="客服"  href="http://www.htc.com/cn/contact/chat/">
+	  </a>
+	</li>
+
+<!-- / icon -->
+</ul>
+
+
+
+
+<div class="modal fade" id="headalert">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body pos-re">
+      <!-- Close -->
+        <button type="button" class="close pos-ab" data-dismiss="modal" style="top:10px;right:15px;z-index:99999;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <!-- / Close -->
+        <div class="row fix-padding15">
+        	<div class="col-sm-3 col-xs-4"><img class="pull-right" src="/wcsstore/Aurora/new2014/img/icon/face-look.png" alt=""></div>
+            <div class="col-sm-9 col-xs-8">
+            <div class="m-b-20"></div>
+              <h4 id="headdisplay"><span class="color-red"></span></h4>
+            </div>
+        </div><!-- row -->
+      </div><!-- modal-body -->
+      <div class="modal-footer" id="disdown">
+      		<a href="javascript:;" data-dismiss="modal" class="btn btn-success pull-right asd">确定</a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- END Header.jsp -->
+	<section class="htc-main" id="htc-main">
+		<!-- / navigation -->
+		<div class="container">
+		  <div class="row fix-padding15">
+		  <div class="m-b-50"></div>
+		    <div class="col-xs-6 fix-padding">
+		      <img src="/wcsstore/Aurora/new2014/img/other/404.jpg" class="pull-right"  alt="" />
+		    </div>
+		    <div class="col-md-4 col-sm-5 col-xs-6 fix-padding">
+		      <div class="talk-404">
+				
+						<h3> 很抱歉，您访问的页面无法正确显示，可能是因为如下原因： </h3>
+					
+										<span >以下部分旨在帮助商店开发者在样本商店中对问题进行调试。</span>
+										<br />
+										<span>在下面列出了错误信息。要获取进一步的详细信息，请增加 WebSphere Commerce 系统的记录日志级别，并检查日志文件。</span>
+									
+		        
+		        
+				<p> 您可以回到<a href="http://eshop.htc.com/mall/zh-CN/htc/allCategories?ntype=ecshop"  class="link-logo">首页</a>继续浏览商城內容</p>
+				<br>
+		      </div>
+		    </div>
+		  </div>
+		</div><!-- container -->
+
+</section>
+<!-- Footer Start --><!-- BEGIN Footer.jsp -->
+<input type="hidden" value="10.209.35.4" id="appip"/>
+<div class="m-b-30"></div>
+<!-- 運送 -->
+ <div class="ec_help">
+	<div class="ec_help_box">
+		<div class="ec_help_box_tips">*以上展示内容为广告</div>
+		<!-- 运送信息 -->
+		<ul class="cf">
+			<li>
+				<div class="ico_box"><img src="/wcsstore/Aurora/new2014/img/ec_help1.png"></div>
+				<div class="txt_box">单笔订单满99元包邮</div>
+			</li>
+			<li>
+				<div class="ico_box"><img src="/wcsstore/Aurora/new2014/img/ec_help2.png"></div>
+				<div class="txt_box">优选顺丰，迅捷配送</div>
+			</li>
+			<li>
+				<div class="ico_box"><img src="/wcsstore/Aurora/new2014/img/ec_help3.png"></div>
+				<div class="txt_box">7天退货，15天换货</div>
+			</li>
+			<li>
+				<div class="ico_box"><img src="/wcsstore/Aurora/new2014/img/ec_help4.png"></div>
+				<div class="txt_box">全国联保维修点</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- /運送 -->
+<div class="m-b-15"></div>
+<!-- footer -->
+<footer>
+  <div class="footer hidden-xs">
+    <div class="container">
+      <div class="row fix-padding10">
+      <!-- section -->
+        <div class="col-sm-3 col-xs-6 fix-padding">
+          <h3>购物指南</h3>
+          <ul>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=gwlc">购物流程</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=hysm">会员说明</a> </li>
+           
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=ddzt">订单状态</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=zffs">支付方式</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=cjwt">常见问题</a> </li>
+          </ul>
+        </div>
+      <!-- / section --><!-- section -->
+        <div class="col-sm-3 col-xs-6 fix-padding">
+          <h3> 配送政策 </h3>
+          <ul>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=myf">运费说明</a> </li>
+         
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=bzsm"> 包装说明</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=yshejssm"> 验收与拒收说明</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=pssx">配送时效</a> </li>
+          </ul>
+        </div>
+      <!-- / section --><!-- section -->
+        <div class="col-sm-3 col-xs-6 fix-padding">
+          <h3>售后服务</h3>
+          <ul>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=thhzc">退换货政策</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=thhlc">退换货流程</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=tksm">退款说明</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=blthh">发票说明</a> </li>
+            <li> <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&langId=-7&storeId=10001&id=lxkf">联系服务</a> </li>
+          </ul>
+        </div>
+      <!-- / section -->
+      <div class="clearfix visible-sm"></div>
+      
+      
+      <div class="clearfix visible-xs"></div>
+      <!-- section -->
+        <div class="col-sm-3 col-xs-12  fix-padding ">
+          <h3 class="text-center">关注HTC</h3>
+         <img src="/wcsstore/Aurora/new2014/img/qr_code_cn.png"  alt="">
+		 <hr style="margin-bottom:0px;">
+		 <a href="http://eshop.htc.com/webapp/wcs/stores/servlet/GoodLinkView?catalogId=10001&langId=-7&storeId=10001" target="_blank">友情链接</a>
+        </div>
+      <!-- / section -->
+      </div>
+    </div>
+  </div>
+    <div class="footer-contact">
+    <div class="container">
+      <p ><i class="icon-phone color-gray"></i> 400-821-8111   周一至周日 9:00-21:00(节假日除外） 客服专线，或联系  <a id="callCenterFooter" href="javascript:callCenterClick();if(canCall){loadingStart('callCenterFooter');}" class="link-logo">在线客服</a> </p>
+    </div>
+  </div>
+  
+</footer>
+<!-- /footer -->
+  <script>
+    // very simple to use!
+    $(document).ready(function() {
+      $('.hover-drop').dropdownHover().dropdown();
+    });
+  </script>
+  
+<div class="footer-space"></div>
+        <div class="htc-footer " id="htc-footer">
+            <footer>
+                <div class="footer-wrapper">
+                    <div class="main-desk">
+                        <div class="footer-align-center">
+                            <div class="connect-block">
+                                <div class="default-area">
+                                    <div class="dot-grey">
+                                        <div class="circle"></div>
+                                    </div>
+                                    关注我们
+                                </div>
+                            </div>
+                            <div class="popover connect-popover">
+                                <div class="social-list">
+                                    <div class="align-center">
+                                        <a rel="" title="Weibo" href="http://weibo.com/htclife"><img alt="Weibo" src="/wcsstore/Aurora/new2014/htc-header/img/ltr/weibo-color.png">
+                                        </a>
+                                        <a rel="" title="QQ" href="http://e.t.qq.com/htcwildfire"><img alt="QQ" src="/wcsstore/Aurora/new2014/htc-header/img/ltr/qq-color.png">
+                                        </a>
+                                        <a rel="" title="Youku" href="http://tvs.youku.com/HTC"><img alt="Youku" src="/wcsstore/Aurora/new2014/htc-header/img/ltr/youku-color.png">
+                                        </a>
+                                        <a rel="" title="renren" href="http://page.renren.com/htc?checked=true"><img alt="renren" src="/wcsstore/Aurora/new2014/htc-header/img/ltr/renren-color.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="extra-space"></div>
+                            </div>
+                            <div class="arrow-block"></div>
+							<style>
+								@media (min-width:768px){
+									.region-block1{right: 90px;}
+								}
+								@media (max-width:768px){
+									.region-block1{right: 66px;}
+								}
+							</style>
+							<div style="position: absolute; top: 50%; transform: translate(0px, -50%); display: table; " class="region-block1">
+                                <div style="cursor:default;" class="align-center">沪ICP备10214397号-8 中国</div>
+                            </div>
+                            <div class="region-block">
+                                <div class="globe"></div>
+                            </div>
+                            <div class="popover region-popover">
+                                <div class="region-list">
+                                    <div class="popover-wrapper">
+                                        <div class="title-wrapper">
+                                            <div class="title">国家/地区</div>
+                                        </div>
+                                        <div class="list-wrapper desktop-wrapper">
+                                            <ul>
+                                                <li><a href="http://www.htc.com/au/">Australia</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/at/">Österreich</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/be-nl/">België</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/be-fr/">Belgique</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/br/support/">Brazil</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ca/">Canada - English</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ca-fr/">Canada - Français</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/cz/">Česká republika</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/cn/">中国</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/dk/">Danmark</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/de/">Deutschland</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/es/">España</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/fi/">Suomi</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/fr/">France</a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="http://www.htc.com/gr/">Ελλάδα</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/hk-en/">Hong Kong</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/hk-tc/">香港</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/hr/">Hrvatska</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/in/">India</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/id/">Indonesia</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ie/">Ireland</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/it/">Italia</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/jp/">日本</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/kr/">한국</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/kz/">Казахстан</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/latam/">América Latina</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/hu/">Magyarország</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/mea-en/">Middle East</a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="http://www.htc.com/mea-sa/">الشرق الأوسط</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/mm/">Myanmar</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/nl/">Nederland</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/nz/">New Zealand</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/no/">Norge</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ru/">Россия и СНГ</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/pl/">Polska</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/pt/">Portugal</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ro/">România</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ch-de/">die Schweiz</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ch-it/">Svizzera</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ch-fr/">Suisse</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/rs/">Србија</a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="http://www.htc.com/sk/">Slovensko</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/sea/">Singapore</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/se/">Sverige</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/tw/">台灣</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/th/">ประเทศไทย</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/tr/">Türkiye</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ua/">Україна</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/uk/">United Kingdom</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/us/">United States</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/vn/">Việt Nam</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/us/contact/additional_support.html">Additional Support</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-wrapper mobile-wrapper">
+                                            <ul>
+                                                <li><a href="http://www.htc.com/au/">Australia</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/at/">Österreich</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/be-nl/">België</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/be-fr/">Belgique</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/br/support/">Brazil</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ca/">Canada - English</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ca-fr/">Canada - Français</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/cz/">Česká republika</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/cn/">中国</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/dk/">Danmark</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/de/">Deutschland</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/es/">España</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/fi/">Suomi</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/fr/">France</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/gr/">Ελλάδα</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/hk-en/">Hong Kong</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/hk-tc/">香港</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/hr/">Hrvatska</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/in/">India</a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="http://www.htc.com/id/">Indonesia</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ie/">Ireland</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/it/">Italia</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/jp/">日本</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/kr/">한국</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/kz/">Казахстан</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/latam/">América Latina</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/hu/">Magyarország</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/mea-en/">Middle East</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/mea-sa/">الشرق الأوسط</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/mm/">Myanmar</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/nl/">Nederland</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/nz/">New Zealand</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/no/">Norge</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ru/">Россия и СНГ</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/pl/">Polska</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/pt/">Portugal</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ro/">România</a>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="http://www.htc.com/ch-de/">die Schweiz</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ch-it/">Svizzera</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ch-fr/">Suisse</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/rs/">Србија</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/sk/">Slovensko</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/sea/">Singapore</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/se/">Sverige</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/tw/">台灣</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/th/">ประเทศไทย</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/tr/">Türkiye</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/ua/">Україна</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/uk/">United Kingdom</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/us/">United States</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/vn/">Việt Nam</a>
+                                                </li>
+                                                <li><a href="http://www.htc.com/us/contact/additional_support.html">Additional Support</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-closer"></div>
+                                    </div>
+                                </div>
+                                <div class="extra-space"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="footer-align-center">
+                            <div class="links">
+                                <div class="links-col1 m-group-col-1">
+                                    <ul>
+                                        <li>
+                                            <div class="title">全部产品</div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="http://www.htc.com/cn/smartphones/">HTC 智能手机</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/re/re-camera/">HTC 如影</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/accessories/">HTC 配件</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/retailers/">線下門店</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="title"><a href="http://www.htc.com/cn/support/">技术支持</a>
+                                            </div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="http://www.htc.com/cn/support/bulletin.aspx">软件下载</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/support/warranty-statement.html">产品保固说明</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/support/repair.html">客户服务中心</a>
+                                                </li>
+                                                <li><a target="_self" href="http://imei.htc.com/htc/business/warranty.jsp?language=zh_CN">中国-香港维修注册</a>
+                                                </li>
+                                                <li><a target="_self" href="http://htc.digi-channel.com/">客服自助平台</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="title">人才招募</div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="http://www.htc.com/cn/working/">加入我們</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="links-col2 m-group-col-1">
+                                    <ul>
+                                        <li>
+                                            <div class="title"><a href="http://eshop.htc.com/">官方商城</a>
+                                            </div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="http://eshop.htc.com/mall/zh-CN/htc/allCategories/mobile?ntype=ecshop">全部手机</a>
+                                                </li>
+                                                <li><a target="_self" href="http://eshop.htc.com/mall/zh-CN/htc/allCategories/mobileAccessories?ntype=ecshop">配件专区</a>
+                                                </li>
+                                                <li><a target="_self" href="http://eshop.htc.com/webapp/wcs/stores/servlet/HelpCenterView?catalogId=10001&amp;langId=-7&amp;storeId=10001">售后服务</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="title">HTC Club</div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="https://bbs.htc.com">官方社区</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="title">创新</div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="http://www.htc.com/cn/innovations/">创新</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/ultrapixel/">UltraPixel 摄像头</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/htc-transfer/">HTC 迁移</a>
+                                                </li>
+                                                <li><a target="_self" href="http://htc-connect.com/">HTC Connect</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="links-col3 m-group-col-2">
+                                    <ul>
+                                        <li>
+                                            <div class="title">活动专区</div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="http://eshop.htc.com/mall/zh-CN/htc/htc-m8e">进行中的活动</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="title"><a href="http://www.htc.com/cn/about/">关于 HTC</a>
+                                            </div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="http://www.htc.com/cn/about/newsroom/">新闻稿</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/about/">公司概览</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/about/leadership/">管理层</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/about/corporate-responsibility/">企业责任</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="links-col4 m-group-col-2">
+                                    <ul>
+                                        <li>
+                                            <div class="title">联络我们</div>
+                                            <ul class="sublinks">
+                                                <li><a target="_self" href="http://www.htc.com/cn/contact/chat/">在线即时聊天</a>
+                                                </li>
+                                                <li><a target="_blank" href="http://www.htc.com/cn/contact/reservation/">预约当面服务</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htc.com/cn/contact/phone/">致电</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="title">网站</div>
+                                            <ul class="sublinks">
+											
+												<li><a target="_blank" href="http://www.vive.com/cn/">HTC Vive官方网站</a>
+                                                </li>
+                                                <li><a target="_blank" href="http://blog.htc.com/">HTC Blog</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htcdev.com/">HTC Dev</a>
+                                                </li>
+                                                <li><a target="_self" href="http://www.htcpro.com/">HTC Pro</a>
+                                                </li>
+                                                <li><a target="_blank" href="http://research.htc.com/">HTC Research</a>
+                                                </li>
+                                                <li><a target="_blank" href="http://start.htc.com">Get Started</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="legal">
+                                <div class="logo"></div>
+                                <div class="copyright">
+                                    <p class="bold">Copyright 2017 宏达国际电子股份有限公司。 著作权所有，并保留一切权利。</p>
+                                    <ul>
+                                        <li><a target="_self" href="http://www.htc.com/cn/terms/terms-of-use/">使用条款与客户私隐政策</a>
+                                        </li>
+                                        <li><a target="_self" href="http://www.miibeian.gov.cn/">沪ICP备10214397号-8</a>
+                                        </li>
+                                    </ul>
+                                    <div class="footer-content">
+                                        <!-- RAW CONTENT BEGIN --><img src="/wcsstore/Aurora/new2014/htc-header/img/ltr/qr_code_cn.jpg" border="0">
+                                        <!-- RAW CONTENT END -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deep-bottom"></div>
+                </div>
+                <input name="downToFooter" id="downToFooter" type="hidden">
+            </footer>
+        </div><!-- END Footer.jsp --><!-- Footer End -->
+ </div>
+  
+<a style="display:none;" id="togglePromptId" href="#alert-modal-search" data-toggle="modal" data-dismiss="modal" >s</a>
+<div class="modal fade" id="alert-modal-search">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body pos-re">			
+				<button type="button" class="close pos-ab asd" data-dismiss="modal" style="top:10px;right:15px;z-index:99999;">
+					<span aria-hidden="true">&times;</span>
+					<span class="sr-only">Close</span>
+				</button>
+				<center>
+					<div class="row fix-padding15">							
+						<div class="">
+							<div class="m-b-20"></div>
+							<h4></h4>
+						</div>
+					</div>
+				</center>
+			</div>
+			<div class="modal-footer">
+				<a href="javascript:;" data-dismiss="modal" class="btn btn-success pull-right asd" id="search_alert_button"></a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+<!-- End GenericError.jsp -->

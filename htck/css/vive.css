@@ -1,0 +1,284 @@
+.cen{
+    background: #111820;
+}
+.top{
+    width: 1280px;
+    height: 70px;
+    background-color: #111820;
+}
+.top ul{
+    float: left;
+    margin-left: 40px;
+}
+.top li{
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    margin-left: 30px;
+}
+a{
+
+    font-size: 18px;
+    color: #ccc;
+}
+.top span{
+    display: block;
+    width: 163px;
+    height: 35px;
+    border: 3px solid #00c9fb;
+    border-radius: 50px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+span a{
+    display: block;
+    text-align: center;
+    margin-top: 3px;
+}
+.top p{
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 200px;
+}
+#htc {
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 200px;
+}
+
+/*�ֲ�ͼ*/
+#box{
+    width: 1345px;
+    height: 750px;
+    padding: 0 2px 2px 2px;
+    margin: 0 auto;
+    position: relative;
+}
+#box img {
+    width: 1345px;
+    height: 750px;
+}
+.screen{
+    width:1345px;
+    height:750px;
+    overflow: hidden;
+    position: relative;
+}
+.screen ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1000%;
+}
+.screen li{
+    width: 1345px;
+    height: 750px;
+    overflow: hidden;
+    float: left;
+}
+.screen ol{
+    position: absolute;
+    right: 620px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.screen ol li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.screen ol li.current{
+    background: #70cdf0;
+}
+#arr {
+    display: none;
+}
+
+#arr span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '����';
+    font-size: 60px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+
+#arr #right {
+    right: 5px;
+    left: auto;
+}
+/*�ĸ�Сͼ*/
+.si{
+    height: 200px;
+    background: #f5f5f5;
+}
+.si ul li:first-child{
+    background:url(../images/sub-promo_new-01_tryvive.png) no-repeat -74px 65px;
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+.si ul li:nth-child(2){
+    background:url(../images/sub-promo_new-_standalone_cn3.png) no-repeat -74px 65px;
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+.si ul li:nth-child(3){
+    background:url(../images/sub-promo_new-03_das2.png) no-repeat -74px 65px;
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+.si ul li:last-child{
+    background:url(../images/sub-promo_new-04_vivestudios.png) no-repeat -74px 65px;
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+.si ul li h3{
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+.si ul li p{
+    font-size: 16px;
+    text-align: center;
+}
+.si ul li image{
+    margin: 0 auto;
+}
+/*��Ƶ*/
+.videolittle{
+    /*height: 1075px;*/
+}
+
+/*���¶�̬*/
+.dynamic{
+    height: 715px;
+    overflow: hidden;
+}
+.newdynamic{
+    height: 145px;
+    width: 400px;
+}
+.newdynamic h4{
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.newdynamic h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+.pic1{
+    height: 570px;
+    width: 400px;
+    position: absolute;
+    margin-bottom: 0;
+
+}
+.pic1 img{
+    height: 570px;
+    width: 400px;
+
+}
+.pic2{
+    height: 468px;
+    width: 500px;
+    margin-top: -150px;
+    margin-left: 402px;
+}
+.pic2 img {
+    width: 500px;
+    height: 468px;
+}
+.pic3{
+    height: 668px;
+    width: 500px;
+    margin-left: 402px;
+    margin-top: 2px;
+}
+.pic3 img{
+    height: 252px;
+    width: 500px;
+}
+.english{
+    width: 345px;
+    height: 714px;
+    margin-top: -467px;
+    background-color: #e6e6e6;
+}
+.english p{
+    font-size: 15px;
+}
+/*��β*/
+.ending{
+    height: 430px;
+    background-color: #111820;
+    position: relative;
+}
+.statement{
+    width: 610px;
+    height: 304px;
+}
+.statement dl{
+    float: left;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+.statement dl dt{
+    font-size: 18px;
+    color: #fefefe;
+    margin-bottom: 35px;
+}
+.statement dl dd{
+    font-size: 15px;
+    color: #aaaaaf;
+    margin-bottom: 15px;
+}
+.ending .hongda{
+    width: 610px;
+    margin-top: 10px;
+}
+.hongda p{
+    font-size: 13px;
+    color: #aaaaaf;
+    width: 250px;
+}
+.hongda span {
+    display: inline-block;
+    margin-top: 30px;
+}
+.ending .region {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+
+}
+.ending .picture{
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+}

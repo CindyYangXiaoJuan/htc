@@ -1,0 +1,7 @@
+﻿文件下载网址  =>  文件保存路径
+http://www.htc.com/managed-assets/shared/desktop/smartphones/buy/star.png  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\www.htc.com\images\star_1.png
+http://www.htc.com/assets/layout/img/ltr/reviews/arrows.png  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\www.htc.com\images\arrows.png
+http://www.htc.com/assets/layout/img/ltr/reviews/rv-award-logo.png  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\www.htc.com\images\rv-award-logo.png
+http://www.htc.com/managed-assets/shared/desktop/homepagev2/zh_CN/htc-eshop-Ultra-0908-zh-CN-small-mobile.jpg  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\www.htc.com\images\htc-eshop-ultra-0908-zh-cn-small-mobile.jpg
+http://www.htc.com/assets/layout/img/ltr/reviews/rv-banner-bg.jpg  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\www.htc.com\images\rv-banner-bg.jpg
+http://www.htc.com/assets/layout/layout/img/email-icon.png  =>  D:\工作\前端课堂所需软件\look\单页扒站小工具\www.htc.com\images\email-icon.png

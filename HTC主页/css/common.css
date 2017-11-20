@@ -1,0 +1,34 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,dl,dd,dt,ol,input,button{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: microsoft yahei;
+	position: relative;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content:".";
+	display: block;
+	height: 0;
+	line-height:0;
+	visibility: hidden;
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+}

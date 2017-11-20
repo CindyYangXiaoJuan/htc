@@ -1,0 +1,99 @@
+.bottom {
+    width: 100%;
+    height:390px;
+    display: none;
+    position: absolute;
+}
+.bottom_btn_l #bootom_btn_a {
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: -28px;
+}
+.bottom_btn {
+    height: 85px;
+    position: relative;
+    background-color: #fff;
+}
+.bottom_btn_l ul {
+    margin-left: 60px;
+}
+.bottom_btn_l ul li {
+    float: left;
+    font-size: 9px;
+    color: #666;
+    margin-top: 24px;
+}
+.bottom_btn_l a {
+    display: inline-block;
+    height: 19px;
+    margin-left: 58px;
+    /*margin-top: 12px;*/
+}
+.bottom_btn_center {
+    position: absolute;
+    top: 28px;
+    left: 50%;
+}
+.bottom_btn_r p {
+    font-size: 14px;
+    color: #666;
+    height: 25px;
+    position: absolute;
+    top: 32px;
+    right: 90px;
+}
+.bottom_btn_r p i {
+    border-right: 1px solid #666;
+}
+.bottom_btn_r p span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../images/globe.png");
+    position: absolute;
+    right: -27px;
+}
+.bottom #bot_btn {
+    top: 0px;
+    height: 85px;
+}
+.bottom_l, .bottom_r {
+    background-color: #333;
+    height: 315px;
+}
+.bottom_l {
+    width: 70%;
+}
+.bottom_l dl {
+    float: left;
+}
+.bottom_l dl dt,.bottom_l dl dd {
+    height: 25px;
+    margin-right: 110px;
+}
+.bottom_l dl dt {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.bottom_l dl a{
+    color : #fff;
+}
+.bottom_r {
+    color: #fff;
+    width: 30%;
+}
+.bottom_r .bottom_logo {
+    margin-top: 34px;
+}
+.bottom_r .p1 {
+    height: 20px;
+    margin-top: 15px;
+}
+.bottom_r .p2 {
+    height: 29px;
+}
+.bottom_r .p3 {
+    height: 25px;
+}

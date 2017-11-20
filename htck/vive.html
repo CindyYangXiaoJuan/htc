@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="lunbo.js"/>
+    <link rel="stylesheet" href="css/vive.css">
+</head>
+<!--头部-->
+<body>
+<div class="cen">
+    <div class="w">
+        <div class="top clearfix">
+            <ul class="vive clearfix">
+                <li><a href="../HTC主页/HTC官网.html">HTC主页</a></li>
+                <li><a href="#">VIVEPORT</a></li>
+                <li><a href="#">开发者</a></li>
+                <li><a href="#">论坛</a></li>
+                <li><a href="#">博客</a></li>
+                <li><a href="#">服务</a></li>
+            </ul>
+            <span><a href="#">订购VIVE</a></span>
+            <span><a href="#">下载VIVE软件</a></span>
+
+            <p><a href="#">登录</a></p>
+        </div>
+    </div>
+</div>
+<!--轮播图-->
+<div id="box">
+    <div class="screen">
+        <ul>
+            <li><img src="images/1.jpg"  alt=""/></li>
+            <li><img src="images/2.jpg"  alt=""/></li>
+            <li><img src="images/3.png"  alt=""/></li>
+            <li><img src="images/4.png"  alt=""/></li>
+            <li><img src="images/5.png"  alt=""/></li>
+            <li><img src="images/6.jpg"  alt=""/></li>
+        </ul>
+        <ol></ol>
+    </div>
+    <div id="arr"><span id="left">&lt;</span><span id="right">&gt;</span></div>
+</div>
+
+<!--vive系列-->
+<div class="si">
+    <ul>
+        <li><h3>立即体验VIVE</h3></li>
+        <li><h3>即将推出</h3>
+
+            <p>无需连接手机或电脑VR一体机</p></li>
+        <li><h3>VIVE畅听智能头戴</h3></li>
+        <li><h3>VIVE STUDIOS</h3></li>
+    </ul>
+</div>
+<!--视频-->
+<div class="videolittle w">
+    <video autoplay loop src="video/hp-02-hmd-animation.mp4" width = "1250px">
+    </video>
+</div>
+<!--最新动态-->
+<div class="dynamic">
+    <div class="w">
+        <div class="newdynamic">
+            <h4>HTC VIVE VR</h4>
+
+            <h3>最新动态</h3>
+        </div>
+        <div class="pic1 fl">
+            <img src="images/hp-04-news01.jpg" alt=""/>
+        </div>
+        <div class="pic2 fl">
+            <img src="images/hp-04-news02.jpg" alt=""/>
+        </div>
+        <div class="pic3 fl">
+            <img src="images/hp-04-news03.jpg" alt=""/>
+        </div>
+        <div class="english fr">
+            <p>Trusted Reviews Awards 2016:  VR Headset of the Year</p><br/>
+            <p>- HTC VIVE- Trusted Reviews</p><br/>
+            <p>VR Headset of the Year </p><br/>
+            <p>- Wearable Tech Awards</p><br/>
+        </div>
+    </div>
+</div>
+<!--尾部-->
+<div class="ending">
+    <div class="w">
+
+        <div class="statement">
+
+            <dl>
+                <dt>使用条款</dt>
+                <dd>隐私正常</dd>
+                <dd>使用条款</dd>
+                <dd>行为守则</dd>
+                <dd>版权侵权索赔通知及程序</dd>
+                <dd>安全与法规注意事项</dd>
+                <dd>产品安全</dd>
+                <dd>HTC法律文档</dd>
+            </dl>
+            <dl>
+                <dt>支持</dt>
+                <dd>VIVE有限质保声明</dd>
+                <dd>VIVE(商用版)有限质保声明</dd>
+                <dd>订购帮助</dd>
+                <dd>订单状态</dd>
+                <dd>退货和取消</dd>
+                <dd>发货信息</dd>
+            </dl>
+            <dl>
+                <dt>关于HTC</dt>
+                <dd>新闻稿</dd>
+                <dd>关于HTC</dd>
+                <dd>HTC.com</dd>
+                <dd>VIVE X</dd>
+            </dl>
+        </div>
+        <div class="hongda">
+            <P>2011-2017宏达国际电子股份有限公司</P>
+            <span>沪ICP备10214397号</span>
+    </div>
+        <div class="region">
+            地区:<select>
+            <option>中国</option>
+            <option>日本</option>
+        </select>
+        </div>
+        <div class="picture fr">
+            <img src="images/qr_code_cn.png" alt=""/>
+        </div>
+    </div>
+</div>
+</body>
+<script src="common.js"></script>
+<script>
+    //获取最外面的div
+    var box = my$("box");
+    //获取相框
+    var screen = box.children[0];
+    //获取相框的宽度
+    var imgWidth = screen.offsetWidth;
+    //获取ul
+    var ulObj = screen.children[0];
+    //获取所有的li
+    var list = ulObj.children;
+    //获取ol
+    var olObj = screen.children[1];
+    //焦点的div
+    var arr = my$("arr");
+    //全局变量
+    var pic = 0;
+    //创建小按钮根据li的个数
+    for (var i = 0; i < list.length; i++) {
+        //创建li加入ol中
+        var liObj = document.createElement("li");
+        olObj.appendChild(liObj);
+//        liObj.innerHTML = (i + 1);
+        //在每个ol中的li标签添加自定义属性,存储索引值
+        liObj.setAttribute("index", i);
+        //注册鼠标进入事件
+        liObj.onmouseover = function () {
+            //先干掉所有的ol中的li的背景颜色
+            for (var j = 0; j < olObj.children.length; j++) {
+                olObj.children[j].removeAttribute("class");
+            }
+            this.className = "current";
+            pic = this.getAttribute("index");
+            //移动ul
+            animate(ulObj, -pic * imgWidth);
+        };
+    }
+    //设置ol中第一个li有背景颜色
+    olObj.children[0].className = "current";
+
+    //克隆一个ul第一个li，加入到ul中的最后一个后-----克隆
+    ulObj.appendChild(ulObj.children[0].cloneNode(true));
+
+    //自动播放
+    var timeId = setInterval(clickHandle, 1000);
+    //鼠标进入到box的div显示左右焦点的div
+    box.onmouseover = function () {
+        arr.style.display = "block";
+        //鼠标进入废掉之前的定时器
+        clearInterval(timeId);
+    };
+    //鼠标离开到box的div隐藏左右焦点的div
+    box.onmouseout = function () {
+        arr.style.display = "none";
+        //鼠标离开后自动播放
+        timeId = setInterval(clickHandle, 1000);
+    };
+    //右边按钮
+    my$("right").onclick = clickHandle;
+    function clickHandle() {
+        //如果pic的值是5，恰巧是ul中li的个数-1的值，此时页面显示第六个图片，而用户会认为
+        //这是第一个图，所以如果用户再次点击按钮，用户应该看到第二个图片
+        if (pic == list.length - 1) {
+            //如何从第六个图跳转到第一个图
+            pic = 0;//先设置pic=0
+            ulObj.style.left = 0 + "px";
+        }
+        pic++;
+        animate(ulObj, -pic * imgWidth);
+        if (pic == list.length - 1) {
+            //第五个按钮颜色干掉
+            olObj.children[olObj.children.length - 1].className = "";
+            //第一个按钮颜色设置上
+            olObj.children[0].className = "current";
+        } else {
+            //干掉所有的小按钮的背景颜色
+            for (var i = 0; i < olObj.children.length; i++) {
+                olObj.children[i].removeAttribute("class");
+            }
+            olObj.children[pic].className = "current";
+        }
+    }
+    //左边按钮
+    my$("left").onclick = function () {
+        if (pic == 0) {
+            pic = 6;
+            ulObj.style.length = -pic * imgWidth + "px";
+        }
+        pic--;
+        animate(ulObj, -pic * imgWidth);
+        for (var i = 0; i < olObj.children.length; i++) {
+            olObj.children[i].removeAttribute("class");
+        }
+        //当前的pic索引对应的按钮颜色的
+        olObj.children[pic].className = "current";
+    };
+
+
+    //设置任意的一个元素,移动到指定的目标位置
+    function animate(element, target) {
+        clearInterval(element.timeId);
+        //定时器的id值存储到对象的一个属性中
+        element.timeId = setInterval(function () {
+            //获取元素的当前的位置,数字类型
+            var current = element.offsetLeft;
+            //每次移动的距离
+            var step = 10;
+            step = current < target ? step : -step;
+            //当前移动到位置
+            current += step;
+            if (Math.abs(current - target) > Math.abs(step)) {
+                element.style.left = current + "px";
+            } else {
+                //清理定时器
+                clearInterval(element.timeId);
+                //直接到达目标
+                element.style.left = target + "px";
+            }
+        }, 10);
+    }
+
+</script>
+
+</html>

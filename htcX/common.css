@@ -1,0 +1,43 @@
+body,h1,h2,h3,h4,h5,h6,p,ol,dl,dt,dd,input,div,ul,button{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
+input,img{
+    border: 0 none;
+}
+input{
+    outline-style: none;
+}
+img{
+    vertical-align: middle;
+}
+.w{
+    width:  1140px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hiidden;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}

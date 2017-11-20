@@ -1,0 +1,115 @@
+﻿/* customize share button */
+.janrainSocialRoot.janrainFormFactorDrawer .janrainDrawerButton {
+    /*font-family: 'Lato';*/
+    font-size: 12px;
+    width: 48px;
+    height: 22px;
+    background-color: #fff;
+    color: #999;
+    border: 1px solid #ecebe9;
+}
+.janrainSocialRoot.janrainFormFactorDrawer .janrainDrawerButton:hover {
+    background-color: #ecebe9;
+    border: 1px solid #adadad;
+}
+.janrainSocialRoot.janrainFormFactorDrawer .janrainDrawerButton:after {
+    /* font-family:'janrain-icons';
+     font-size: 10px;
+     content: "";*/
+}
+
+/* customize share count  */
+.janrainSocialRoot .janrainShareCountContainer {
+    width: 46px;
+    height: 22px;
+    border: 1px solid #ecebe9;
+    border-radius: 0;
+    margin: 0;
+    padding: 2px 0 0 0;
+}
+.janrainSocialRoot.janrainOrientationVertical .janrainShareCountContainer {
+    display: inline-block;
+
+}
+.janrainSocialRoot .janrainShareCount {
+    font-family: arial;
+    font-size: 12px;
+}
+
+/* customize provider drawer (aka drop-down) */
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainProviderList {
+    margin-left: 48px;
+    padding-left: 0;
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 48px;
+
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical.janrainProviderListOpen .janrainProviderList {
+    border: 1px solid #ecebe9;
+    padding-left: 0;
+
+}
+.janrainSocialRoot.janrainFormFactorDrawer button.janrainProvider {
+    float: none;
+    width: 46px;
+}
+/*.janrainSocialRoot.janrainFormFactorDrawer button.janrainProvider:hover {
+  background-color: #69b40f;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}*/
+.janrainSocialRoot button.janrainProvider img {
+    width: 22px;
+    height: 22px;
+}
+.janrainProvider{
+    width: 22px;
+    height: 22px;
+    padding: 0;
+}
+/* customize share modal */
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical .janrainShareForm {
+    top: 0px;
+    left: 102px;
+}
+.janrainGravityEast:before,.janrainGravityEast:after,
+.janrainGravityWest:before,.janrainGravityWest:after,
+.janrainGravityNorth:before,.janrainGravityNorth:after,
+.janrainGravitySouth:before,.janrainGravitySouth:after {
+    display: none;
+}
+
+/* remove blue "hover" effect from buttons */
+.janrainSocialRoot button:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.janrainSocialRoot.janrainFormFactorDrawer.janrainOrientationVertical {
+    height: 30px;
+}
+.janrainSocialRoot button.janrainProvider {
+    width: 22px;
+    height: 22px;
+    margin: 0;
+}
+.janrainSocialRoot.janrainOrientationHorizontal button.janrainProvider {
+    display: inline-block;
+    margin-left: 4px;
+}
+.janrainSocialRoot.janrainOrientationHorizontal button.janrainProvider:hover {
+    /*background-color: #69b40f;*/
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+
+.janrainSocialRoot a:focus.janrainProvider img,
+.janrainSocialRoot input:focus.janrainProvider img,
+.janrainSocialRoot textarea:focus.janrainProvider img,
+.janrainSocialRoot button:focus.janrainProvider img,
+.janrainSocialRoot button.currentProviderShowing.janrainProvider img {
+    width: 22px;
+    height: 22px;
+}

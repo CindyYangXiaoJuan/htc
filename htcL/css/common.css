@@ -1,0 +1,63 @@
+body,ul,ol,dl,p,h1,h2,h3,h4,h5,h6,input,button,dd {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 12px;
+	font-family: arial,microsoft yahei;
+	color: #666;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #373737;
+}
+a:hover {
+	color :#e01222;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+em,i {
+	font-style: normal;
+}
+input,button,img {
+	border: 0 none;
+}
+input,button {
+	outline-style: none;
+}
+img {
+	vertical-align: middle;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.w {
+	width: 100%;
+	margin:0 auto;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
